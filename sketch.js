@@ -121,6 +121,15 @@ wall38.display()
 wall39.display()
 box1.display()
 console.log(box1.body.position)
+  if(box1.body.position.x>530 && box1.body.position.y>350 &&box1.body.position.x<580 )
+   { flag=true; } 
+   if(flag) 
+   { fill("white") 
+  textSize(25) 
+  text("You Won!!",600,50) } 
+  fill("white") 
+  textSize(25) 
+  text("Goal",540,360)
 }
 
 function keyPressed(){
